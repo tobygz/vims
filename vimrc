@@ -1,9 +1,14 @@
+
+"yum remove vim-* -y
+"wget -P /etc/yum.repos.d/  https://copr.fedorainfracloud.org/coprs/lbiaggi/vim80-ligatures/repo/epel-7/lbiaggi-vim80-ligatures-epel-7.repo
 "git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+"yum  install vim-enhanced sudo -y
 "need first
 
 set nocompatible              " be iMproved, required
 filetype off                  " required
 syntax on
+color darkblue
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
